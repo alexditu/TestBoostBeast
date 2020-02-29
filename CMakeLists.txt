@@ -14,4 +14,8 @@ set (CMAKE_CXX_FLAGS "-std=c++17")
 
 set (CMAKE_VERBOSE_MAKEFILE on)
 
+
+set (BOOST_ROOT "/home/alex/alex/code/boost/boost_1_72_0")
+find_package (Boost 1.72.0 REQUIRED)
+
 add_subdirectory (src)
